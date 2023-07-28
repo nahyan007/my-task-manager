@@ -1,11 +1,17 @@
 import React from 'react'
 import './App.css'
-import TaskWrapper from './Components/TaskWrapper'
+import TaskForm from './Components/TaskForm'
+import SearchForm from './Components/SearchForm'
 
 const App = () => {
   return (
     <div className='task__container'>
-    <TaskWrapper />
+    <div className="task__wrapper">
+    
+    <SearchForm />
+    <TaskForm />
+
+    </div>
     </div>
   )
 }
