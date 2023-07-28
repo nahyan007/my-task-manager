@@ -3,7 +3,9 @@ import TaskForm from './TaskForm'
 
 const TaskWrapper = () => {
   return (
-    <div className='task__wrapper'>
+    <div>
+    
+
         <TaskForm />
     </div>
   )
